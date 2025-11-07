@@ -1,0 +1,35 @@
+:root {
+  --var-primary: #CD2C58;
+  --var-secondary : #FFC69D;
+  --var-light-primary: #E06B80;
+  --var-light-seconday: #FFE6D4;
+  --var-text: #242424;
+  --var-bg: #FFF;
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+  color : var(--var-text);
+  background-color: var(--var-bg);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+* {
+  margin : 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+
+.body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
